@@ -1,0 +1,21 @@
+{
+  "name": "p-admin",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "nx g @nx-dotnet/core:restore",
+    "build": "nx build"
+  },
+  "private": true,
+  "devDependencies": {
+    "@nrwl/js": "16.6.0",
+    "@nx-dotnet/core": "^1.22.0",
+    "@nx/js": "^16.6.0",
+    "nx": "16.6.0",
+    "nx-cloud": "latest"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {}
+}
